@@ -7,9 +7,10 @@ echo $HOME
 echo $PWD
 
 name=$(uname)
+echo $name
 
-if [[ $name -eq Linux]]
+if [ $name == "Linu" ]; then 
     echo "Operating System is Linux"
 else
-    echo "No Linux found"
+    echo "No Linux Found"
 fi
